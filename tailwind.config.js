@@ -11,6 +11,7 @@ module.exports = {
         md: "768px",
         lg: "1024px",
         xl: "1140px",
+        '2xl':'1140px'
       },
     },
     extend: {
@@ -19,7 +20,7 @@ module.exports = {
            'custom-3xl' : '38px'
              },
              backgroundImage: {
-              'hero-bg':"url('./assets/images/webp/hero-background.webp')"          
+              'hero-bg':"url('../public/assets/images/webp/hero-background.webp')"          
             },
             lineHeight: {
            'custom-2xl' : '110%',

@@ -3,11 +3,11 @@
 @tailwind utilities;
 @font-face {
     font-family: "helvetica";
-    src:      url('./assets/fonts/Helvetica.ttf') format("woff2");
+    src:      url('../public/assets/fonts/Helvetica.ttf') format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
-  }
+}
   body{
     font-family: 'helvetica' , sans-serif;
-  }
+    }

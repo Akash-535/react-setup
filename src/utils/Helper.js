@@ -1,4 +1,4 @@
-export const HEADER_ITEM =[
+export const HEADER_LIST =[
 {
     item:'About',
     link:"#about"
