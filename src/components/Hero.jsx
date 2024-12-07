@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react'
 import Header from '../common/Header'
 import CustomButton from '../common/CustomButton'
 import { ButtonArrowIcon } from '../utils/Icons'
@@ -13,10 +12,10 @@ const Hero = () => {
                         <div>
                             <h1 className='text-custom-6xl text-white font-normal leading-custom-2xl max-xl:text-5xl max-md:text-4xl max-sm:text-3xl'>Easily Compare <span className='font-bold'>Energy, Gas, And Internet</span> Plans</h1>
                             <p className='text-base text-white font-normal max-w-[506px] pt-4 pb-[42px] leading-custom-4xl max-sm:text-sm max-sm:pt-2 max-lg:pb-7 max-md:pb-4 max-lg:mx-auto'>Find and switch to the best energy, gas, and internet plans with ease. Our platform simplifies your search, letting you compare providers and make informed decisions, all in one place.</p>
-                            <div className='flex p-[9px] pl-[22px] bg-white rounded-[0px_50px_50px_20px] items-center max-w-[476px] justify-between max-sm:pl-3 max-lg:mx-auto max-sm:gap-1'>
-                                <input type="text" placeholder='Start typing your address' id='required' required className='placeholder:text-deep-blue placeholder:text-base placeholder:font-normal !outline-none !bg-transparent text-deep-blue text-base font-normal placeholder:max-sm:text-sm max-sm:text-sm w-full' />
+                            <form className='flex p-[9px] pl-[22px] bg-white rounded-[0px_50px_50px_20px] items-center max-w-[476px] justify-between max-sm:pl-3 max-lg:mx-auto max-sm:gap-1'>
+                                <input type="text" placeholder='Start typing your address' required className='placeholder:text-deep-blue placeholder:text-base placeholder:font-normal !outline-none !bg-transparent text-deep-blue text-base font-normal placeholder:max-sm:text-sm max-sm:text-sm w-full' />
                                 <CustomButton customButton="Compare" buttonSpan={<ButtonArrowIcon />} />
-                            </div>
+                            </form>
                         </div>
                         <p className='text-custom-3xl font-normal leading-custom-2xl max-md:text-3xl max-sm:text-2xl max-[374.98px]:text-xl max-lg:pt-5 max-xl:text-white 2xl:text-white'>More than <span className='text-pacific-blue font-bold'>80,000</span>+ companies trust bill central </p>
                     </div>
