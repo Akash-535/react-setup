@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import { HEADER_LIST } from '../utils/Helper';
-import { HeaderArrowIcon } from '../utils/Icons';
+import { HEADER_LIST } from '../utils/helper';
+import { HeaderArrowIcon } from '../utils/icons';
 
 const Header = () => {
     const [open, setOpen] = useState(false);

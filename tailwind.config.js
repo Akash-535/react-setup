@@ -16,8 +16,9 @@ module.exports = {
     },
     extend: {
       fontSize: {
+        'custom-2xl' : '32px',
+        'custom-3xl' : '38px',
         'custom-6xl':'64px',
-           'custom-3xl' : '38px'
              },
              backgroundImage: {
               'hero-bg':"url('../public/assets/images/webp/hero-background.webp')"          
@@ -25,10 +26,14 @@ module.exports = {
             lineHeight: {
            'custom-2xl' : '110%',
            'custom-4xl' : '150%',
+           'custom-5xl' : '160%'
             },
             colors: {
               'pacific-blue': '#00A8E8',
-              'deep-blue':'#00171F'
+              'deep-blue':'#00171F',
+              'prussian-blue':'#003459',
+              'twilight-blue':'#EAF9FFF0',
+              'marine':'#003459'
                   },
                     },
   },
