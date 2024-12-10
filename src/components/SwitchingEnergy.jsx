@@ -13,13 +13,13 @@ const SwitchingEnergy = () => {
                     <img className='w-full max-w-[507px]' src="./assets/images/webp/switch-energy-img.webp" alt="switching-energy-img" />
                 </div>
                 <div className="flex flex-col items-start max-lg:items-center">
-                    <div className='max-w-[409px] pb-4 max-sm:pb-2'>
+                    <div className='max-w-[409px] pb-4 max-sm:pb-2 max-lg:text-center'>
                         <Heading headingSpanOne="Switching Energy" heading="Made Simple" />
                     </div>
-                    <div className='max-w-[558px]'>
+                    <div className='max-w-[558px] max-lg:text-center'>
                         <Description description="Say goodbye to confusing energy plans! We simplify the process by providing clear and competitive electricity and gas recommendations. Whether you're moving or just seeking a better deal, our platform connects you with the best energy providers quickly and easily, helping you save on energy bills." />
                     </div>
-                    <p className='text-prussian-blue text-2xl font-normal leading-custom-2xl pt-[38px] max-md:pt-4 max-md:text-xl max-sm:text-lg'>Benefits of Comparing Energy Plans</p>
+                    <p className='text-prussian-blue text-2xl font-normal leading-custom-2xl pt-[38px] max-md:pt-4 max-md:text-xl max-sm:text-lg max-lg:text-center'>Benefits of Comparing Energy Plans</p>
                     <div className='flex items-start flex-col'>
                         {SWITCHING_ENERGY_LIST.map((obj, i) => (
                             <ul key={i} className={` list-disc lg:pl-4 marker:text-deep-blue ${i === 0 ? "pt-7 max-md:pt-3" : i === 2 ? "pb-[42px] pt-2 max-md:pb-5" : "pt-2"}`}>

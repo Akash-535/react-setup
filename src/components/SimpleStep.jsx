@@ -18,12 +18,8 @@ const SimpleStep = () => {
                     </div>
                 </div>
             </div>
-            <Swiper
-                pagination={{
-                    dynamicBullets: true,
-                }}
-                modules={[Pagination]}
-                className="mySwiper"
+            <Swiper className="mySwiper !pt-14 max-lg:!pt-7 max-sm:!pt-5 max-w-[1440px]"
+                loop={true}
                 breakpoints={{
                     320: {
                         slidesPerView: 1,
@@ -39,11 +35,12 @@ const SimpleStep = () => {
                     },
                     1200: {
                         slidesPerView: 4,
-                        centeredSlides: false
+                        centeredSlides: false,
+                        spaceBetween: 0,
                     },
 
                 }} >
-                <div className='flex items-center justify-center pt-14 max-lg:pt-7 max-sm:pt-5'>
+                <div className='flex items-center justify-center'>
                     {SIMPLE_STEPS_LIST.map((obj, i) => (
                         <SwiperSlide>
                             <div className='relative group overflow-hidden max-md:max-h-[450px] max-w-[360px] w-full mx-auto' key={i}>
@@ -54,7 +51,7 @@ const SimpleStep = () => {
                                     </div>
                                 </div>
                                 <div className='bg-marine absolute top-[-50%] group-hover:top-[73%] max-md:group-hover:top-[65%] group-hover:bottom-0 duration-500 ease-linear w-full p-8 max-md:p-2.5'>
-                                    <h4 className='leading-custom-2xl text-custom-2xl font-normal pb-3.5 text-white max-md:text-2xl max-md:pb-1.5'>{obj.heading}</h4>
+                                    <h4 className='leading-custom-2xl text-custom-2xl font-normal pb-3.5 text-white max-md:text-2xl max-md:pb-1.5 list-decimal'>{obj.heading}</h4>
                                     <p className='leading-custom-5xl font-normal text-white text-base max-md:text-base'>{obj.description}</p>
                                 </div>
                             </div></SwiperSlide>

@@ -4,10 +4,10 @@ import { ButtonArrowIcon } from '../utils/icons'
 
 const Hero = () => {
     return (
-        <div className='bg-hero-bg max-2xl:bg-contain bg-cover max-xl:bg-cover bg-top bg-no-repeat max-2xl:px-5'>
+        <div className='bg-hero-bg bg-custom-cover max-xl:bg-cover bg-top bg-no-repeat max-2xl:px-5'>
             <Header />
             <div className='container pt-[120px] max-xl:py-16 max-md:py-9 max-sm:py-4'>
-                <div className='flex max-lg:flex-col max-xl:gap-6'>
+                <div className='flex max-lg:flex-col max-xl:gap-10 max-md:gap-6'>
                     <div className="w-6/12 max-lg:w-full max-lg:text-center flex flex-col justify-between">
                         <div>
                             <h1 className='text-custom-6xl text-white font-normal leading-custom-2xl max-xl:text-5xl max-md:text-4xl max-sm:text-3xl'>Easily Compare <span className='font-bold'>Energy, Gas, And Internet</span> Plans</h1>
@@ -17,7 +17,7 @@ const Hero = () => {
                                 <CustomButton customButton="Compare" buttonSpan={<ButtonArrowIcon />} />
                             </form>
                         </div>
-                        <h3 className='max-xl:hidden 2xl:hidden text-custom-3xl font-normal leading-custom-2xl max-md:text-3xl max-sm:text-2xl max-[374.98px]:text-xl max-lg:pt-5 text-start max-w-[548px]'>More than <span className='text-pacific-blue font-bold'>80,000</span>+ companies trust bill central </h3>
+                        <h3 className='max-xl:hidden text-custom-3xl font-normal leading-custom-2xl max-md:text-3xl max-sm:text-2xl max-[374.98px]:text-xl max-lg:pt-5 text-start max-w-[548px]'>More than <span className='text-pacific-blue font-bold'>80,000</span>+ companies trust bill central </h3>
                     </div>
                     <div className='w-6/12 max-lg:w-full max-lg:items-center max-lg:flex max-lg:justify-center'>
                         <div className='relative flex justify-end'>

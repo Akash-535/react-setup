@@ -18,7 +18,7 @@ module.exports = {
       fontSize: {
         'custom-2xl' : '32px',
         'custom-3xl' : '38px',
-        'custom-6xl':'64px',
+        'custom-6xl' : '64px',
              },
              backgroundImage: {
               'hero-bg':"url('../public/assets/images/webp/hero-background.webp')"          
@@ -33,8 +33,12 @@ module.exports = {
               'deep-blue':'#00171F',
               'prussian-blue':'#003459',
               'twilight-blue':'#EAF9FFF0',
-              'marine':'#003459'
+              'marine':'#003459',
+              'astronaut-blue':'#09456B'
                   },
+                  backgroundSize:{
+                    'custom-cover': '100% 810px'
+                  }
                     },
   },
   plugins: [],

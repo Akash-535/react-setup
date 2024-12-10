@@ -40,7 +40,6 @@ export const SWITCHING_ENERGY_LIST = [
        "Get better customer service.",
        "Explore greener, more sustainable energy options."    
 ]
-
 export const SIMPLE_STEPS_LIST = [
     {
         stepImg : './assets/images/webp/step-location-img.webp',
