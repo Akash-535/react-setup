@@ -1,9 +1,8 @@
 import React from 'react'
-import Heading from '../common/Heading'
-import Description from '../common/Description'
-import { SIMPLE_STEPS_LIST } from '../utils/helper'
+import Heading from '../../common/Heading'
+import Description from '../../common/Description'
+import { SIMPLE_STEPS_LIST } from '../../utils/helper'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 

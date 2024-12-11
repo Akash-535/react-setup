@@ -1,9 +1,9 @@
 import React from 'react'
-import Heading from '../common/Heading'
-import Description from '../common/Description'
-import { SWITCHING_ENERGY_LIST } from '../utils/helper'
-import CustomButton from '../common/CustomButton'
-import { ButtonArrowIcon } from '../utils/icons'
+import { ButtonArrowIcon } from '../../utils/icons'
+import CustomButton from '../../common/CustomButton'
+import { SWITCHING_ENERGY_LIST } from '../../utils/helper'
+import Description from '../../common/Description'
+import Heading from '../../common/Heading'
 
 const SwitchingEnergy = () => {
     return (

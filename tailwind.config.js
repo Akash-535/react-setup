@@ -35,13 +35,14 @@ module.exports = {
         'twilight-blue': '#EAF9FFF0',
         'marine': '#003459',
         'astronaut-blue': '#09456B',
-        'green-white': '#EBEBEB'
+        'green-white': '#EBEBEB',
+        'lily-white': '#EAF9FF'
       },
       backgroundSize: {
         'custom-cover': '100% 810px'
       },
       boxShadow: {
-        'box': '0px 0px 13.9px 0px #0000001A'
+        'box': '0px 0px 13.9px 0px #0000001A',
       }
     },
   },

@@ -1,6 +1,42 @@
-@media (max-width:575.98px){
-    .faq-icon svg{
-        width: 40px;
-        height: 40px;
+.faq-icon svg path {
+    fill: white;
+}
+.button-next-arrow:hover svg{
+animation: button 1s;
+}
+
+.group:hover .utility-icon svg path {
+    fill: white;
+}
+.custom-next-btn:hover svg path , .custom-prev-btn:hover svg path{
+fill: white;
+}
+@keyframes button {
+    0% {
+        transform: translateX(-20px);
+    }
+    50%{
+        transform: translateX(20px);
+    }
+    100% {
+        transform: translateX(0px); 
+                }
+}
+
+@media (max-width:991.98px){
+      .thumb-star-icon svg{
+        height: 150px;
+        width: 160px;
+    }
+}
+
+@media (max-width:767.98px){
+    .faq-icon-size svg{
+        width: 24px;
+        height: 24px;
+    }
+    .thumb-star-icon svg{
+        height: 150px;
+        width: 160px;
     }
 }

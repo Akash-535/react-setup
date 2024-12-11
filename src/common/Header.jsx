@@ -1,13 +1,15 @@
 import React, { useEffect, useState } from 'react'
 import { HEADER_LIST } from '../utils/helper';
 import { HeaderArrowIcon } from '../utils/icons';
+import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
     const [open, setOpen] = useState(false);
     const toggleSidebar = () => setOpen(!open);
-    const closeNavbar = () => {
-        setOpen(false);
-    };
+    const navigate = useNavigate()
+    const toggleNavigation = (link) => {
+        navigate(link)
+    }
     useEffect(() => {
         const handleOverflow = () => {
             if (open && window.innerWidth < 1024) {
@@ -28,13 +30,11 @@ const Header = () => {
                 <a href="#" className='text-[#FF002A] text-4xl font-godzilla font-normal'><img className='max-w-[105px]' src="./assets/images/webp/logo.webp" alt="logo" /></a>
                 <div className={`flex gap-6 max-lg:flex-col max-lg:justify-center max-lg:items-center ${open ? 'max-lg:z-10 max-lg:translate-x-0 max-lg:bg-astronaut-blue max-lg:fixed max-lg:top-0 max-lg:left-0 max-lg:h-full max-lg:w-full duration-500 ease-linear blur-[80%] justify-center items-center' : 'max-lg:-left-full max-lg:hidden duration-500 ease-linear'}`}>
                     {HEADER_LIST.map((obj, i) => (
-                        <div key={i}>
-                            <ul>
-                                <li className='flex gap-1 flex-row justify-center items-center relative after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full after:bottom-0 after:h-0.5 after:bg-white pb-0.5'>
-                                    <a onClick={closeNavbar} href={obj.link} className=' text-base font-normal text-white'>{obj.item}</a>
-                                </li>
-                            </ul>
-                        </div>
+                        <ul key={i}>
+                            <li className='flex gap-1 flex-row justify-center items-center relative after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full after:bottom-0 after:h-0.5 after:bg-white pb-0.5'>
+                                <a onClick={() => toggleNavigation(obj.link)} href={obj.link} className=' text-base font-normal text-white'>{obj.item}</a>
+                            </li>
+                        </ul>
                     ))}
                     <button className='lg:hidden text-base font-bold rounded-[0_50px_50px_20px] bg-white py-3 px-[22px] flex items-center text-deep-blue hover:rounded-[20px_20px_0px_20px] duration-300 ease-linear gap-1'>Get Started <HeaderArrowIcon /></button>
                 </div>

@@ -1,6 +1,6 @@
-import Header from '../common/Header'
-import CustomButton from '../common/CustomButton'
-import { ButtonArrowIcon } from '../utils/icons'
+import CustomButton from '../../common/CustomButton'
+import Header from '../../common/Header'
+import { ButtonArrowIcon } from '../../utils/icons'
 
 const Hero = () => {
     return (
@@ -15,6 +15,7 @@ const Hero = () => {
                             <form className='flex p-[9px] pl-[22px] bg-white rounded-[0px_50px_50px_20px] items-center max-w-[476px] justify-between max-sm:pl-3 max-lg:mx-auto max-sm:gap-1'>
                                 <input type="text" placeholder='Start typing your address' required className='placeholder:text-deep-blue placeholder:text-base placeholder:font-normal !outline-none !bg-transparent text-deep-blue text-base font-normal placeholder:max-sm:text-sm max-sm:text-sm w-full' />
                                 <CustomButton customButton="Compare" buttonSpan={<ButtonArrowIcon />} />
+
                             </form>
                         </div>
                         <h3 className='max-xl:hidden text-custom-3xl font-normal leading-custom-2xl max-md:text-3xl max-sm:text-2xl max-[374.98px]:text-xl max-lg:pt-5 text-start max-w-[548px]'>More than <span className='text-pacific-blue font-bold'>80,000</span>+ companies trust bill central </h3>

@@ -1,6 +1,5 @@
 import React from 'react'
-import { COMPANIES_LOGO_LIST } from '../utils/helper'
-import { Swiper, SwiperSlide } from 'swiper/react'
+import { COMPANIES_LOGO_LIST } from '../../utils/helper'
 
 const CompaniesTrust = () => {
     return (
