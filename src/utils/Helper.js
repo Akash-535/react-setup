@@ -1,3 +1,5 @@
+import { BundleIcon, ElectricityPlanIcon, GasPlanIcon, InternetPlanIcon } from "./icons"
+
 export const HEADER_LIST =[
 {
     item:'About',
@@ -73,4 +75,27 @@ export const SIMPLE_STEPS_LIST = [
         description : 'Enter your location and preferences to find the best energy, gas, and internet plans for you.'
     },
 
+]
+
+export const FAQ_LIST = [
+    {    
+        faqIcon:<ElectricityPlanIcon/>,
+         question:'Electricity Plan Comparisons',
+        answer:'Whether you want renewable energy, low rates, or flexible contracts, we’ll help you find the best provider.'
+    },
+    {    
+        faqIcon:<GasPlanIcon/>,
+        question:'Gas Plan Comparisons',
+        answer:'Whether you want renewable energy, low rates, or flexible contracts, we’ll help you find the best provider.'
+    },
+    {   
+        faqIcon:<InternetPlanIcon/>,
+        question:'Internet Plan Comparisons',
+        answer:'Whether you want renewable energy, low rates, or flexible contracts, we’ll help you find the best provider.'
+    },
+    {   
+        faqIcon:<BundleIcon/>,
+        question:'Bundle Packages',
+        answer:'Whether you want renewable energy, low rates, or flexible contracts, we’ll help you find the best provider.'
+    }
 ]

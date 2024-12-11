@@ -1,3 +1,6 @@
-.swiper-pagination .swiper-pagination-bullet {
-bottom: -8%;
+@media (max-width:575.98px){
+    .faq-icon svg{
+        width: 40px;
+        height: 40px;
+    }
 }
