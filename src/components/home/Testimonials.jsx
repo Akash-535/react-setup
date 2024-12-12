@@ -10,15 +10,15 @@ import { NextPrewArrow } from '../../utils/icons';
 
 const Testimonials = () => {
     return (
-        <div className='container pb-[162px] max-lg:pb-32 max-md:pb-24 max-sm:pb-16 max-lg:px-5 relative'>
+        <div className='container pb-[162px] max-xl:pb-28 max-lg:pb-20 max-md:pb-16 max-lg:px-5 relative'>
             <div className='text-center'>
                 <Heading heading="Our" headingSpanTwo="Testimonials" />
                 <div className='max-w-[490px] mx-auto pt-4'>
                     <Description description="Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget consectetur mi. Vulputate sapien a a bibendum" />
                 </div>
             </div>
-            <button className="custom-prev-btn absolute left-[-7%] top-[49%] p-2 border border-black rounded-full hover:bg-black duration-300 ease-linear max-xl:top-[79%] max-xl:left-[43%] max-lg:top-[80%] max-md:hidden"> <NextPrewArrow /></button>
-            <button className="custom-next-btn absolute right-[-7%] top-[49%] rotate-180 p-2 border border-black rounded-full hover:bg-black duration-300 ease-linear max-xl:top-[79%] max-xl:right-[43%] max-lg:top-[80%] max-md:hidden"><NextPrewArrow /> </button>
+            <button className="custom-prev-btn absolute left-[-7%] top-[49%] p-2 border border-black rounded-full hover:bg-black duration-300 ease-linear max-xl:top-[79%] max-xl:left-[45%] max-lg:left-[43%] max-lg:top-[80%] max-md:hidden"> <NextPrewArrow /></button>
+            <button className="custom-next-btn absolute right-[-7%] top-[49%] rotate-180 p-2 border border-black rounded-full hover:bg-black duration-300 ease-linear max-xl:top-[79%] max-xl:right-[45%] max-lg:right-[43%] max-lg:top-[80%] max-md:hidden"><NextPrewArrow /> </button>
             <Swiper slidesPerView={3}
                 spaceBetween={24}
                 loop={true}

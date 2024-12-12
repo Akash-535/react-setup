@@ -8,7 +8,7 @@ const Hero = () => {
             <Header />
             <div className='container pt-[120px] max-xl:py-16 max-md:py-9 max-sm:py-4'>
                 <div className='flex max-lg:flex-col max-xl:gap-10 max-md:gap-6'>
-                    <div className="w-6/12 max-lg:w-full max-lg:text-center flex flex-col justify-between">
+                    <div className="w-6/12 max-lg:w-full max-lg:text-center flex flex-col justify-between max-xl:justify-center">
                         <div>
                             <h1 className='text-custom-6xl text-white font-normal leading-custom-2xl max-xl:text-5xl max-md:text-4xl max-sm:text-3xl'>Easily Compare <span className='font-bold'>Energy, Gas, And Internet</span> Plans</h1>
                             <p className='text-base text-white font-normal max-w-[506px] pt-4 pb-[42px] leading-custom-4xl max-sm:text-sm max-sm:pt-2 max-lg:pb-7 max-md:pb-4 max-lg:mx-auto'>Find and switch to the best energy, gas, and internet plans with ease. Our platform simplifies your search, letting you compare providers and make informed decisions, all in one place.</p>

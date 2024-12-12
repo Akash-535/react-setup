@@ -11,10 +11,10 @@ const ComprehensiveUtility = () => {
         setOpen(open === index ? null : index)
     }
     return (
-        <div className='container pb-[162px] max-lg:pb-32 max-md:pb-24 max-sm:pb-16 max-lg:px-5'>
+        <div className='container pb-[162px] max-xl:pb-28 max-lg:pb-20 max-md:pb-16 max-xl:px-5'>
             <div className='flex max-lg:flex-col gap-[73px] max-xl:gap-14 max-lg:gap-10 max-md:gap-8 max-sm:gap-4 items-center'>
                 <div className='w-6/12 flex flex-col items-start max-lg:items-center max-lg:w-full'>
-                    <div className='max-w-[456px] pb-2 max-lg:mx-auto max-lg:text-center'>
+                    <div className='max-w-[456px] pb-0.5 max-lg:mx-auto max-lg:text-center'>
                         <Heading heading="Comprehensive Utility" headingSpanTwo="Comparisons" />
                     </div>
                     <div className="max-w-[558px] w-full mx-auto pt-11 max-lg:pt-8 max-md:pt-5 max-sm:pt-3">

@@ -7,10 +7,10 @@ import Heading from '../../common/Heading'
 
 const SwitchingEnergy = () => {
     return (
-        <div className='container py-40 max-lg:px-5 max-lg:py-32 max-md:py-24 max-sm:py-16'>
-            <div className='flex max-lg:flex-col-reverse gap-[75px] max-lg:gap-14 max-md:gap-11 max-sm:gap-6'>
+        <div className='container py-40 max-xl:px-5 max-xl:py-28 max-lg:py-20 max-md:py-16'>
+            <div className='flex max-lg:flex-col-reverse gap-[75px] max-xl:gap-14 max-md:gap-11 max-sm:gap-6'>
                 <div className='max-lg:flex max-lg:justify-center'>
-                    <img className='w-full max-w-[507px]' src="./assets/images/webp/switch-energy-img.webp" alt="switching-energy-img" />
+                    <img className='w-full max-w-[507px] max-xl:max-w-md' src="./assets/images/webp/switch-energy-img.webp" alt="switching-energy-img" />
                 </div>
                 <div className="flex flex-col items-start max-lg:items-center">
                     <div className='max-w-[409px] pb-4 max-sm:pb-2 max-lg:text-center'>

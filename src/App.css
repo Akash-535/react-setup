@@ -11,6 +11,14 @@ animation: button 1s;
 .custom-next-btn:hover svg path , .custom-prev-btn:hover svg path{
 fill: white;
 }
+.scrollbar::-webkit-scrollbar{    
+        width: .1px;
+        height: 3px;
+      }  
+    ::-webkit-scrollbar-thumb {
+      background-color: #09496E;
+      border-radius: 100px;
+    }
 @keyframes button {
     0% {
         transform: translateX(-20px);
