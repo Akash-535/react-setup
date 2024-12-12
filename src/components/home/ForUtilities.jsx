@@ -25,10 +25,10 @@ const ForUtilities = () => {
                     </div>
                 </div>
                 <div className="w-7/12 max-lg:w-full">
-                    <div className='flex flex-wrap'>
+                    <div className='flex flex-wrap pt-3'>
                         {FOR_UTILITIES_LIST.map((obj, i) => (
-                            <div key={i} className='p-3 w-6/12 max-md:w-full max-w-[334px] mx-auto'>
-                                <div className='shadow-box p-6 hover:bg-prussian-blue group duration-300 ease-linear transition-all h-[286px] border border-green-white rounded'>
+                            <div key={i} className='p-3 w-6/12 max-md:w-full max-w-[334px] mx-auto max-lg:p-2'>
+                                <div className='shadow-box p-6 hover:bg-prussian-blue group duration-300 ease-linear transition-all h-[286px] border border-green-white rounded max-md:p-4 max-md:h-56'>
                                     <div className='pb-0.5 utility-icon'>{obj.utilitiesIcon}</div>
                                     <h3 className='group-hover:text-white pt-4'>{obj.title}</h3>
                                     <p className='text-base font-normal leading-custom-4xl text-deep-blue max-sm:text-sm group-hover:text-white max-w-[286px] pt-3'>{obj.description}</p>

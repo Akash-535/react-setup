@@ -77,7 +77,7 @@ export const SIMPLE_STEPS_LIST = [
 
 ]
 
-export const FAQ_LIST = [
+export const COMPREHENSIVE_FAQ_LIST = [
     {
         faqIcon: <ElectricityPlanIcon />,
         question: 'Electricity Plan Comparisons',

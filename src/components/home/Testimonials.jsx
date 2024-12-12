@@ -17,8 +17,8 @@ const Testimonials = () => {
                     <Description description="Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget consectetur mi. Vulputate sapien a a bibendum" />
                 </div>
             </div>
-            <button className="custom-prev-btn absolute left-[-7%] top-[41%] p-2 border border-black rounded-full hover:bg-black duration-300 ease-linear max-xl:top-[75%] max-xl:left-[43%] max-lg:top-[80%] max-md:hidden"> <NextPrewArrow /></button>
-            <button className="custom-next-btn absolute right-[-7%] top-[41%] rotate-180 p-2 border border-black rounded-full hover:bg-black duration-300 ease-linear max-xl:top-[75%] max-xl:right-[43%] max-lg:top-[80%] max-md:hidden"><NextPrewArrow /> </button>
+            <button className="custom-prev-btn absolute left-[-7%] top-[49%] p-2 border border-black rounded-full hover:bg-black duration-300 ease-linear max-xl:top-[79%] max-xl:left-[43%] max-lg:top-[80%] max-md:hidden"> <NextPrewArrow /></button>
+            <button className="custom-next-btn absolute right-[-7%] top-[49%] rotate-180 p-2 border border-black rounded-full hover:bg-black duration-300 ease-linear max-xl:top-[79%] max-xl:right-[43%] max-lg:top-[80%] max-md:hidden"><NextPrewArrow /> </button>
             <Swiper slidesPerView={3}
                 spaceBetween={24}
                 loop={true}
@@ -43,12 +43,12 @@ const Testimonials = () => {
                     320: {
                         slidesPerView: 1,
                         spaceBetween: 10,
-                        centeredSlides: true
+                        centeredSlides: true,
                     },
                 }}
-                className='flex pt-[62px] mySwiper'>
+                className='flex !pt-[62px] mySwiper max-lg:!pt-12 max-md:!pt-9 max-sm:!pt-5'>
                 {TESTIMONIALS_LIST.map((obj, i) => (
-                    <SwiperSlide className='p-5 shadow-box border rounded border-green-white max-w-[364px]'>
+                    <SwiperSlide key={i} className='p-5 shadow-box border rounded border-green-white max-w-[364px]'>
                         <div className='flex gap-2 pb-6'>
                             <img className='size-[60px]' src={obj.img} alt="testimonials-img" />
                             <div>

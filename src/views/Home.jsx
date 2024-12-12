@@ -3,8 +3,9 @@ import Hero from '../components/home/Hero'
 import CompaniesTrust from '../components/home/CompaniesTrust'
 import SwitchingEnergy from '../components/home/SwitchingEnergy'
 import SimpleStep from '../components/home/SimpleStep'
-import Faq from '../components/home/Faq'
+import ComprehensiveUtility from '../components/home/ComprehensiveUtility'
 import Testimonials from '../components/home/Testimonials'
+import ForUtilities from '../components/home/ForUtilities'
 
 const Home = () => {
     return (
@@ -13,7 +14,8 @@ const Home = () => {
             <CompaniesTrust />
             <SwitchingEnergy />
             <SimpleStep />
-            <Faq />
+            <ComprehensiveUtility />
+            <ForUtilities />
             <Testimonials />
         </>
     )
