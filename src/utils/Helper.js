@@ -1,4 +1,4 @@
-import { BundleIcon, ElectricityPlanIcon, GasPlanIcon, InternetPlanIcon, NoServiceIcon, ProcessIcon, SaveTimeIcon, StartSvgIcon, SupportIcon } from "./icons"
+import { BundleIcon, CrossIcon, ElectricityPlanIcon, GasPlanIcon, InternetPlanIcon, NoServiceIcon, ProcessIcon, RightIcon, SaveTimeIcon, StartSvgIcon, SupportIcon } from "./icons"
 
 export const HEADER_LIST = [
     {
@@ -167,4 +167,63 @@ export const TESTIMONIALS_LIST = [
         description: "Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio  adipiscing elit vitae vestibulum vestibulum."
     },
 
+]
+
+export const FREQUENTLY_FAQ_LIST = [
+    {
+        question: 'Can I switch providers if I’m currently in a contract?',
+        answer: 'Yes, but some contracts may include exit fees. We can guide you through the terms of your current plan and help you determine if switching now makes sense for you.'
+    },
+    {
+        question: 'Will my service be interrupted if I switch providers?',
+        answer: 'Yes, but some contracts may include exit fees. We can guide you through the terms of your current plan and help you determine if switching now makes sense for you.'
+    },
+    {
+        question: 'How long does it take to switch providers?',
+        answer: 'Yes, but some contracts may include exit fees. We can guide you through the terms of your current plan and help you determine if switching now makes sense for you.'
+    },
+    {
+        question: 'Is there a fee for switching providers?',
+        answer: 'Yes, but some contracts may include exit fees. We can guide you through the terms of your current plan and help you determine if switching now makes sense for you.'
+    }
+]
+
+export const TABLE_PRACTICE_LIST = [
+    {
+      brandName:"Rift",
+      lineOne: <CrossIcon />,
+      lineTwo: <CrossIcon />,
+      lineThree: <CrossIcon />,
+      lineFour: <RightIcon />,
+      lineFive: <RightIcon />,
+      lineFive: <RightIcon />,
+      lineSix:"Est: £300 per year"
+    },
+    {
+      brandName:"Taxscouts",
+      lineOne: <CrossIcon />,
+      lineTwo: <CrossIcon />,
+      lineThree: <CrossIcon />,
+      lineFour: <RightIcon />,
+      lineFive: <RightIcon />,
+      lineSix:"Est: £300 per year"
+    },
+    {
+      brandName:"Coconut",
+      lineOne: <RightIcon />,
+      lineTwo: <RightIcon />,
+      lineThree: <RightIcon />,
+      lineFour: <CrossIcon />,
+      lineFive: <RightIcon />,
+      lineSix:"Coconut £9.00 p/m £108 per year"
+    },
+    {
+      brandName:"Pie",
+      lineOne: <RightIcon />,
+      lineTwo: <RightIcon />,
+      lineThree: <RightIcon />,
+      lineFour: <RightIcon />,
+      lineFive: <RightIcon />,
+      lineSix:"£6.99 or £9.99p/m £59.99 review fee £143.87 per year"
+    }
 ]

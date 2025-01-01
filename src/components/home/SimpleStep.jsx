@@ -5,6 +5,7 @@ import { SIMPLE_STEPS_LIST } from '../../utils/helper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css';
 import 'swiper/css/pagination';
+import { Pagination } from 'swiper/modules'
 
 const SimpleStep = () => {
     return (
@@ -17,8 +18,12 @@ const SimpleStep = () => {
                     </div>
                 </div>
             </div>
-            <Swiper className="mySwiper !pt-14 max-lg:!pt-7 max-sm:!pt-5 max-w-[1440px]"
+            <Swiper className="mySwiper !pt-14 max-lg:!pt-7 max-sm:!pt-5 max-w-[1440px] max-md:!pb-12"
                 loop={true}
+                pagination={{
+                    clickable: true,
+                }}
+                modules={[Pagination]}
                 breakpoints={{
                     320: {
                         slidesPerView: 1,
@@ -41,8 +46,8 @@ const SimpleStep = () => {
                 }} >
                 <div className='flex items-center justify-center'>
                     {SIMPLE_STEPS_LIST.map((obj, i) => (
-                        <SwiperSlide>
-                            <div className='relative group overflow-hidden max-md:max-h-[450px] max-w-[360px] w-full mx-auto cursor-pointer max-sm:max-h-96' key={i}>
+                        <SwiperSlide key={i}>
+                            <div className='relative group overflow-hidden max-md:max-h-[450px] max-w-[360px] w-full mx-auto cursor-pointer max-sm:max-h-96'>
                                 <img className='max-w-[360px] max-lg:w-full' src={obj.stepImg} alt={obj.alt} />
                                 <div className='absolute group-hover:h-0 group-hover:w-0 group-hover:top-1/2 group-hover:left-full group-hover:translate-x-full group-hover:translate-y-[-50%] group-hover:opacity-100 group-hover:z-10 duration-500 ease-linear bg-twilight-blue opacity-94 top-0 left-0 w-full h-full'>
                                     <div className='relative w-full h-full'>

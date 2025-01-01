@@ -30,7 +30,12 @@ fill: white;
         transform: translateX(0px); 
                 }
 }
-
+.swiper-pagination {
+      display: none;
+    }
+      .swiper-pagination-bullet-active {
+        background-color: #003459 !important; 
+    }
 @media (max-width:991.98px){
       .thumb-star-icon svg{
         height: 150px;
@@ -47,4 +52,6 @@ fill: white;
         height: 150px;
         width: 160px;
     }
+    .swiper-pagination {
+        display: block;}
 }

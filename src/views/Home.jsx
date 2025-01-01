@@ -6,6 +6,7 @@ import SimpleStep from '../components/home/SimpleStep'
 import ComprehensiveUtility from '../components/home/ComprehensiveUtility'
 import Testimonials from '../components/home/Testimonials'
 import ForUtilities from '../components/home/ForUtilities'
+import Faq from '../components/home/Faq'
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             <ComprehensiveUtility />
             <ForUtilities />
             <Testimonials />
+            <Faq />
         </>
     )
 }

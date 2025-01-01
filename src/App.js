@@ -7,6 +7,9 @@ import Service from './views/Service';
 import WhyUs from './views/WhyUs';
 import Accordion from './views/Accordion';
 import TestimonialsLink from './views/TestimonialsLink';
+import TestPramas from './components/service/TestPramas';
+import UseEffectPractice from './components/service/UseEffectPractice';
+import TableBox from './components/about/TableBox';
 
 
 function App() {
@@ -21,6 +24,8 @@ function App() {
           <Route path='/testimonials' element={<TestimonialsLink />} />
           <Route path='/why-us' element={<WhyUs />} />
           <Route path='/faq' element={<Accordion />} />
+          <Route path='/params' element={<TestPramas />} />
+          <Route path='/effect' element={<UseEffectPractice />} />
         </Routes>
       </BrowserRouter>
     </>

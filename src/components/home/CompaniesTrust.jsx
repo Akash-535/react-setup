@@ -2,6 +2,9 @@ import React from 'react'
 import { COMPANIES_LOGO_LIST } from '../../utils/helper'
 
 const CompaniesTrust = () => {
+    const handToggle = (hello) => {
+        console.log(hello)
+    }
     return (
         <div>
             <div className='container px-5 max-xl:pt-28 max-lg:pt-20 max-md:pt-16'>
@@ -15,6 +18,7 @@ const CompaniesTrust = () => {
                     ))}
                 </div>
             </div>
+            <p onClick={handToggle("How Are You Buddy?")}>now</p>
         </div>
     )
 }

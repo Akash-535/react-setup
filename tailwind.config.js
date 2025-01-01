@@ -43,6 +43,7 @@ module.exports = {
       },
       boxShadow: {
         'box': '0px 0px 13.9px 0px #0000001A',
+        'faq-box': '0px 4px 23.2px 0px #00000014'
       }
     },
   },
