@@ -1,5 +1,5 @@
 import React from 'react'
-import { TABLE_PRACTICE_LIST } from '../../utils/helper'
+import { TABLE_PRACTICE_LIST } from '../utils/helper'
 
 const About = () => {
   return (
@@ -18,22 +18,22 @@ const About = () => {
           <div className='min-h-[64px] min-w-[140px] w-full' >
           </div>
           <div className='w-full min-w-[140px] flex items-center min-h-[54.61px] border-t border-black'>
-            <p className='text-white'>Mobile App</p>
+            <p className='text-white text-sm'>Mobile App</p>
           </div>
           <div className='w-full min-w-[140px] flex items-center min-h-[54.61px] border-t border-black'>
-            <p className='text-white'>Invoicing</p>
+            <p className='text-white text-sm'>Invoicing</p>
           </div>
           <div className='w-full min-w-[140px] flex items-center min-h-[54.61px] border-t border-black'>
-            <p className='text-white'>Bookkeeping</p>
+            <p className='text-white text-sm'>Bookkeeping</p>
           </div>
           <div className='w-full min-w-[140px] flex items-center min-h-[54.61px] border-t border-black'>
-            <p className='text-white'>Accountancy support</p>
+            <p className='text-white text-sm'>Accountancy <span className='block'>support</span></p>
           </div>
           <div className='w-full min-w-[140px] flex items-center min-h-[54.61px] border-t border-black'>
-            <p className='text-white'>Tax Filing</p>
+            <p className='text-white text-sm'>Tax Filing</p>
           </div>
           <div className='w-full min-w-[140px] flex items-center min-h-[54.61px] border-t border-black'>
-            <p className='text-white'>Fee</p>
+            <p className='text-white text-sm'>Fee</p>
           </div>
           </div>
           <div className='flex justify-center items-center'>

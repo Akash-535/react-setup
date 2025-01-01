@@ -9,8 +9,6 @@ import Accordion from './views/Accordion';
 import TestimonialsLink from './views/TestimonialsLink';
 import TestPramas from './components/service/TestPramas';
 import UseEffectPractice from './components/service/UseEffectPractice';
-import TableBox from './components/about/TableBox';
-
 
 function App() {
   return (
