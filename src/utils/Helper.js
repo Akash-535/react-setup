@@ -215,7 +215,7 @@ export const TABLE_PRACTICE_LIST = [
       lineThree: <RightIcon />,
       lineFour: <CrossIcon />,
       lineFive: <RightIcon />,
-      lineSix:"Coconut £9.00 p/m £108 per year"
+      lineSix:"£9.00 p/m £108 per year"
     },
     {
       brandName:"Pie",
